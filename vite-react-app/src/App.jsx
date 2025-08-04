@@ -2,6 +2,7 @@ import { useState } from "react";
 import GameMenu from "./components/tic-tac/GameMenu";
 import GameBoard from "./components/tic-tac/GameBoard";
 
+
 function App() {
   const [gameStarted, setGameStarted] = useState(false)
   const [players, setPlayers] = useState({ playerX: 'Player X', playerO: 'Player O'})

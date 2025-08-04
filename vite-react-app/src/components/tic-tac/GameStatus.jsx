@@ -22,7 +22,7 @@ const GameStatus = ({ currentPlayer, winner, gameDraw, players }) => {
       <p className="text-xl text-gray-700">
         <span className="font-bold text-blue-600">
           {currentPlayer === 'X' ? players.playerX : players.playerO}
-        </span>s turn
+        </span> turn
       </p>
     );
   };
