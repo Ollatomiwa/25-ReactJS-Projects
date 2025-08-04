@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', systen-ui, sabs-serif;
+    -webkit-font-smoothing: antialiased;
+    background: linear-gradient(135deg, #1a2a6c, #b21f1f, #ddbb2d);
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
