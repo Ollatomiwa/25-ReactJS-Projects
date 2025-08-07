@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const GameCell = ({ value, onClick, isWinningCell, isDisabled }) => {
     const getCellStyle = () => {
-      let baseStyle = 'w-full h-24 flex items-center justify-center text-5xl font-bold rounded-lg shadow-sm transition-all duration-200 cursor-pointer aspect-square';
+      let baseStyle = 'w-full h-24 flex items-center justify-center text-5xl font-bold rounded-lg shadow-md transition-all duration-200 cursor-pointer aspect-square';
       
       if (isWinningCell) {
         return `${baseStyle} bg-yellow-100 ring-4 ring-yellow-400 transform scale-105 text-yellow-800`;
